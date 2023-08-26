@@ -17,4 +17,4 @@ RUN apt update && apt install -y maven && \
     mvn clean package
 
 # Run the application
-CMD ["java", "-jar", "target/SendEmail-*-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/SendEmail-0.0.1-SNAPSHOT.jar"]
